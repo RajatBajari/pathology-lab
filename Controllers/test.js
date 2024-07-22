@@ -18,7 +18,7 @@ exports.postTest = async (req, res) => {
             })
         }
     } catch (err) {
-        res.status(484).json({
+        res.status(404).json({
             error: err,
             "message": "Technical Falut"
         })
